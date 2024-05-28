@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+
+
+</head>
+<!-- 
+<body>
+    <div class="container">
+<h1>Resume</h1>
+<h2>satyavani</h2>
+<table class="th">
+    <thead >
+        <tr>
+<th style="border: 1px solid gray;">qualification</th>
+<th style="border: 1px solid gray;">percentage</th>
+<th style="border: 1px solid gray;">year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border: 1px solid gray;">m.sc</td>
+<td style="border: 1px solid gray;">70%</td>
+<td style="border: 1px solid gray;">2017</td>
+</tr>
+
+<tr>
+    <td style="border: 1px solid gray;">m.sc</td>
+    <td style="border: 1px solid gray;">60%</td>
+    <td style="border: 1px solid gray;">2013</td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid gray;">bsc</td>
+        <td style="border: 1px solid gray;">60%</td>
+        <td style="border: 1px solid gray;">2019</td>
+        </tr>
+            
+
+</tbody>
+
+
+</table>
+
+
+    </div>
+<div>
+<h3>skill set</h3>
+<ul>
+<li>C</li>
+<li>C++</li>
+<li>HTML</li>
+<li>JAVASCRIPT</li>
+</ul>
+
+</div>
+
+<div>
+
+<h3>Hobbies</h3>
+<ul>
+<li>reading books</li>
+<li>listening music</li>
+<li>dancig</li>
+<li>singing</li>
+</ul>
+
+</div>
+<div>
+<h3>certifications</h3>
+<ul>
+<li>def</li>
+<li>dfgh</li>
+<li>dfgvb</li>
+<li>wedfrgvb</li>
+</ul>
+
+
+
+</div> -->
+
+<body>
+    <script>
+
+        var containerElement = document.createElement('div');
+        document.body.appendChild(containerElement);
+        var myh1 = document.createElement('h1');
+        myh1.innerHTML = "RESUME";
+        containerElement.style.backgroundColor = "white";
+        containerElement.style.textAlign = "center";
+        containerElement.style.width = "600px";
+        containerElement.style.margin = "auto";
+        var myh2 = document.createElement('h2');
+        myh2.innerHTML = "satyavani.ch (m.sc)";
+
+
+        var myp = document.createElement('p');
+        myp.innerHTML = 'Address:7034556  Ganghinagar hyderabad-3087778'
+
+        var myp2 = document.createElement('p');
+        myp2.innerHTML = 'Phone-(M) 9986567765.Email - satyavanich@gmail.com'
+
+        var myh3 = document.createElement('h3');
+        myh3.innerHTML = '* Educational  Qualification *'
+
+        containerElement.appendChild(myh1);
+        containerElement.appendChild(myh2);
+        containerElement.appendChild(myp);
+        containerElement.appendChild(myp2);
+        containerElement.appendChild(myh3);
+
+
+        var mytable = document.createElement('table');
+        containerElement.appendChild(mytable);
+        mytable.style.border = "5px solid gray";
+        mytable.style.margin = "auto";
+
+        var myheader = document.createElement('thead');
+        mytable.appendChild(myheader);
+        myheader.style.border = "1px solid pink";
+
+        var myr1 = document.createElement('tr');
+        myheader.appendChild(myr1);
+        myr1.style.border = "1px solid pink";
+
+        var myr1h1 = document.createElement('th');
+        myr1.appendChild(myr1h1);
+        myr1h1.innerHTML = 'EXAMINATION';
+        myr1h1.style.border = "1px solid red";
+
+        var myr1h2 = document.createElement('th');
+        myr1.appendChild(myr1h2);
+        myr1h2.innerHTML = 'BOARD AND INSTITUTE';
+        myr1h2.style.border = "1px solid red";
+
+        var myr1h3 = document.createElement('th');
+        myr1.appendChild(myr1h3);
+        myr1h3.innerHTML = 'YEAR';
+        myr1h3.style.border = "1px solid red";
+
+
+        var myr1h4 = document.createElement('th');
+        myr1.appendChild(myr1h4);
+        myr1h4.innerHTML = 'PERSENTAGE';
+        myr1h4.style.border = "1px solid red";
+
+        var mytablebody = document.createElement('tbody');
+        mytable.appendChild(mytablebody);
+        var mytablebodytr1 = document.createElement('tr');
+        mytablebody.appendChild(mytablebodytr1);
+
+        var mytablebodytr1td1 = document.createElement('td');
+        mytablebodytr1.appendChild(mytablebodytr1td1);
+        mytablebodytr1td1.innerHTML = 'SSC';
+        mytablebodytr1td1.style.border = "1px solid red";
+
+        var mytablebodytr1td2 = document.createElement('td');
+        mytablebodytr1.appendChild(mytablebodytr1td2);
+        mytablebodytr1td2.innerHTML = 'S.S.Z.P.H.SCHOOL';
+        mytablebodytr1td2.style.border = "1px solid red";
+
+
+        var mytablebodytr1td3 = document.createElement('td');
+        mytablebodytr1.appendChild(mytablebodytr1td3);
+        mytablebodytr1td3.innerHTML = '2005';
+        mytablebodytr1td3.style.border = "1px solid red";
+
+
+        var mytablebodytr1td4 = document.createElement('td');
+        mytablebodytr1.appendChild(mytablebodytr1td4);
+        mytablebodytr1td4.innerHTML = '80%';
+        mytablebodytr1td4.style.border = "1px solid red";
+
+        var mytablebodytr2 = document.createElement('tr');
+        mytablebody.appendChild(mytablebodytr2);
+
+        var mytablebodytr2td1 = document.createElement('td');
+        mytablebodytr2.appendChild(mytablebodytr2td1);
+        mytablebodytr2td1.innerHTML = 'INTER';
+        mytablebodytr2td1.style.border = "1px solid red";
+
+        var mytablebodytr2td2 = document.createElement('td');
+        mytablebodytr2.appendChild(mytablebodytr2td2);
+        mytablebodytr2td2.innerHTML = 'G.R.R.S JUNIOR COLLEGE';
+        mytablebodytr2td2.style.border = "1px solid red";
+
+
+        var mytablebodytr2td3 = document.createElement('td');
+        mytablebodytr2.appendChild(mytablebodytr2td3);
+        mytablebodytr2td3.innerHTML = '2007';
+        mytablebodytr2td3.style.border = "1px solid red";
+
+
+        var mytablebodytr2td4 = document.createElement('td');
+        mytablebodytr2.appendChild(mytablebodytr2td4);
+        mytablebodytr2td4.innerHTML = '70%';
+        mytablebodytr2td4.style.border = "1px solid red";
+
+        var mytablebodytr3 = document.createElement('tr');
+        mytablebody.appendChild(mytablebodytr3);
+
+        var mytablebodytr3td1 = document.createElement('td');
+        mytablebodytr3.appendChild(mytablebodytr3td1);
+        mytablebodytr3td1.innerHTML="DEGREE";
+        mytablebodytr3td1.style.border='1px solid red';
+
+        var mytablebodytr3td2 = document.createElement('td');
+         mytablebodytr3.appendChild(mytablebodytr3td2);
+         mytablebodytr3td2.innerHTML='K.V.R.D.DEGREE COLLEGE';
+         mytablebodytr3td2.style.border="1px solid red";
+
+         var mytablebodytr3td3= document.createElement('td');
+         mytablebodytr3.appendChild(mytablebodytr3td3);
+         mytablebodytr3td3.innerHTML='2009';
+         mytablebodytr3td3.style.border="1px solid red";
+
+         var mytablebodytr3td4 = document.createElement('td');
+         mytablebodytr3.appendChild(mytablebodytr3td4);
+         mytablebodytr3td4.innerHTML="70%";
+         mytablebodytr3td4.style.border="1px solid red";
+
+         var mytablebodytr4 = document.createElement('tr');
+         mytablebody.appendChild(mytablebodytr4);
+
+         var mytablebodytr4td1= document.createElement('td');
+         mytablebodytr4.appendChild(mytablebodytr4td1);
+         mytablebodytr4td1.innerHTML='M.S.C';
+         mytablebodytr4td1.style.border="1px solid red";
+
+         var mytablebodytr4td2= document.createElement('td');
+         mytablebodytr4.appendChild(mytablebodytr4td2);
+         mytablebodytr4td2.innerHTML='S.K.B.R COLLEGE';
+         mytablebodytr4td2.style.border="1px solid red";
+         
+         var mytablebodytr4td3= document.createElement('td');
+         mytablebodytr4.appendChild(mytablebodytr4td3);
+         mytablebodytr4td3.innerHTML='2013';
+         mytablebodytr4td3.style.border="1px solid red";
+
+         var mytablebodytr4td4= document.createElement('td');
+         mytablebodytr4.appendChild(mytablebodytr4td4);
+         mytablebodytr4td4.innerHTML='66%';
+         mytablebodytr4td4.style.border="1px solid red";
+
+
+
+        var myskill = document.createElement("ul");
+        myskill.innerHTML = "*** SKILL SET ***";
+        containerElement.appendChild(myskill);
+        myskill.style.textAlign = 'left';
+
+
+        var mys1 = document.createElement("li");
+        mys1.innerHTML = "HTML";
+        myskill.appendChild(mys1);
+        mys1.style.textAlign = 'left';
+
+        var mys2 = document.createElement("li");
+        mys2.innerHTML = "CSS";
+        myskill.appendChild(mys2);
+        mys2.style.textAlign = 'left';
+
+        var mys3 = document.createElement("li");
+        mys3.innerHTML = "BOOTSTRAP";
+        myskill.appendChild(mys3);
+        mys3.style.textAlign = 'left';
+
+        var mys4 = document.createElement("li");
+        mys4.innerHTML = "C";
+        myskill.appendChild(mys4);
+        mys4.style.textAlign = 'left';
+
+        var mys5 = document.createElement("li");
+        mys5.innerHTML = "C++";
+        myskill.appendChild(mys5);
+        mys5.style.textAlign = 'left';
+
+        var mys6 = document.createElement("li");
+        mys6.innerHTML = "MONGODB";
+        myskill.appendChild(mys6);
+        mys6.style.textAlign = 'left';
+
+        var mys7 = document.createElement("li");
+        mys7.innerHTML = "SQL";
+        myskill.appendChild(mys7);
+mys7.style.textAlign = 'left';
+
+        var mys8 = document.createElement("li");
+        mys8.innerHTML = "JAVASCRIPT";
+        myskill.appendChild(mys8);
+        mys8.style.textAlign = 'left';
+
+        var myproject = document.createElement("ul");
+        myproject.innerHTML = "*** PROJECTS ***";
+        myproject.style.textAlign = 'left';
+        containerElement.appendChild(myproject);
+
+        var myproject1 = document.createElement("li");
+        myproject1.innerHTML = "AMAZONCLONE BY USING HTML & CSS";
+        myproject1.style.textAlign = 'left';
+        myproject.appendChild(myproject1);
+
+        var myproject2 = document.createElement("li");
+        myproject2.innerHTML = "AMAZONCLONE BY USING BOOTSTRAP";
+        myproject2.style.textAlign = 'left';
+        myproject.appendChild(myproject2);
+
+        var myproject3 = document.createElement('li');
+        myproject3.innerHTML = "SMALL PROJECTS";
+        myproject.appendChild(myproject3);
+        myproject3.style.textAlign = 'left';
+
+    </script>
+
+
+
+
+</body>
+
+</html>
